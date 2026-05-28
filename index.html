@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Vaga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Verificador de Elegibilidade</h2>
+        <p>Preencha os dados abaixo para verificar se você está apto à vaga:</p>
+
+        <div class="form-group">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+        </div>
+
+        <div class="form-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" placeholder="Ex: 25">
+        </div>
+
+        <div class="form-group">
+            <label for="altura">Altura (em metros):</label>
+            <input type="number" id="altura" step="0.01" placeholder="Ex: 1.70">
+        </div>
+
+        <button onclick="verificarVaga()">Verificar Vaga</button>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

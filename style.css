@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+    /* Degradê tom pastel bem destacado e moderno */
+    background: linear-gradient(135deg, #ffcfe9 0%, #c3e6fc 50%, #d1fdff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa principal com efeito Glassmorphism (tendência moderna de vidro fosco) */
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.02);
+    width: 100%;
+    max-width: 380px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Título com cor moderna e marcante */
+h2 {
+    color: #2b2d42;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+p {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Organização dos campos de entrada */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #4a4e69;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Inputs arredondados e com foco suave */
+input {
+    padding: 14px;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    color: #333;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input:focus {
+    border-color: #a2d2ff;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(162, 210, 255, 0.3);
+}
+
+/* O Botão Colorido e Chamativo (Degradê Vibrante) */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #ff70a6 0%, #ff9770 100%);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(255, 112, 166, 0.3);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: 10px;
+}
+
+/* Efeito de passar o mouse no botão */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(255
