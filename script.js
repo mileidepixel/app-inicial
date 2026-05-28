@@ -3,7 +3,7 @@ function verificarVaga() {
     const nome = document.getElementById('nome').value;
     const idade = parseInt(document.getElementById('idade').value);
     const altura = parseFloat(document.getElementById('altura').value);
-    
+    // comentario esquecido
     // Capturando a div onde vamos exibir o resultado final
     const divResultado = document.getElementById('resultado');
 
